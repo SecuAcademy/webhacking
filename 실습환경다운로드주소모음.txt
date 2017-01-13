@@ -1,0 +1,6 @@
+VirtualBox - https://www.virtualbox.org/wiki/Downloads
+칼리리눅스 - https://www.kali.org/downloads/
+칼리리눅스 32비트 버츄얼박스 버전 - https://images.offensive-security.com/virtual-images/Kali-Linux-2016.2-vbox-i686.ova
+XAMPP 리눅스용 32bit - https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/5.6.23/xampp-linux-5.6.23-0-installer.run/download	
+DVWA 1.9 - https://github.com/ethicalhack3r/DVWA/archive/v1.9.zip
+최종실습용 펜테스터랩 ISO파일 - https://pentesterlab.com/exercises/from_sqli_to_shell/iso
