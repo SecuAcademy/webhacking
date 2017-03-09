@@ -8,23 +8,31 @@ cd .. 			상위 디렉토리로 이동
 chmod 			파일 권한 변경
 chmod +x file 		파일을 실행가능하도록 권한 부여
 cp <path1> <path2>	path1의 파일을 path2로 복사
+find			파일 검색
 gedit			gedit 에디터 사용(GUI 환경에서)
+grep <string>		문자열 검색
 id			현재 사용자 이름 확인
 ifconfig		네트워크 인터페이스 및 IP 주소 확인
 ip addr			IP 주소 확인
 ls 			디렉토리 내의 파일 리스트 보기
 ls -al 			디렉토리 내의 파일 리스트를 상세하게 보기
+man <command>		명령어의 매뉴얼 출력
 mkdir <dir>		디렉토리 생성
 mv <path1> <path2> 	파일 및 디렉토리 이동
+nano			nano 파일 에디터 실행
+nc			netcat 프로그램
 pwd 			현재 디렉토리 확인
 rm <path>		파일 및 디렉토리 삭제
 rmdir <dir>		디렉토리 삭제
+service			서비스 상태 확인, 실행 및 종료
 tail <file>		file의 마지막 내용을 출력
 tail -f <file>		file에 갱신되는 새로운 내용을 출력
 tar zxvf <file>.tar.gz 	.tar.gz 파일 압축 해제
+touch <file>		내용이 없는 빈 파일 생성
 uname -a		커널 버젼 확인
 unzip <file>.zip	.zip 파일 압축 해제
 wget <URL>		인터넷 URL에 있는 파일을 다운로드
+which <command>		명령어의 전체 경로 확인
 
 
 
