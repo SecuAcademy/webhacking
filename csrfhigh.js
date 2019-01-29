@@ -1,6 +1,6 @@
 //
 // PoC: CSRF (for DVWA high)
-// Author: Bonghwan Choi
+// Author: Bonghwan Choi (stayp05@secuacademy.com)
 //
 
 var xhr;
